@@ -52,12 +52,15 @@ let {firstName: regularName, superHeroName: superName, homeTown: homeTown} = me
 // CODE HERE
 
 function setColor(arr) {
+  arr.splice(3, Infinity)
   for (let i = 0; i<arr.length; i++) {
+    console.log(arr[i])
     if (arr[i] === 'blue') {
       arr[i] = '#4D4DFF'
     }
+
   }
-  background(arr[1], arr[2], arr[3])
+  background(arr[0], arr[1], arr[2])
 }
 
 //////////////////Step 5////////////////////
