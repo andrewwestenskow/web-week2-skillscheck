@@ -32,7 +32,9 @@ let me = {
   superPowerXP: function () {
     return Math.floor(Math.random() *100) +1
   },
-  profileImage: `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
+  profileImage: function(){
+    return `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
+  }
 }
 
 //////////////////Step 3////////////////////
