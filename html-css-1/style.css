@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+h1{
+  margin: 0;
+}
+
+.header {
+  background-color: #707070;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-holder{
+  display: flex;
+  justify-content: space-around;
+  width: 20vw;
+}
+
+.logo{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 1;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  color: white;
+}
+
+
+
+.hero{
+  background-color: black;
+  height: 60vh;
+  color: #e9e05f;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  letter-spacing: -3px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.body-items{
+  margin: 50px 0px
+}
+
+.green-boxes{
+ display: flex;
+ justify-content: space-evenly;
+  
+}
+
+.green-box{
+  background-color: #a4ffd7;
+  height: 25%;
+  width: 25%;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.green-box:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.yellow-boxes{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+
+
+.yellow-box{
+  background-color: #ffc36c;
+  height: 30vh;
+  width: 42vw;
+  margin: 0 auto;
+}
+
+.elephant{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.holder{
+  width: 42vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content{
+  font-size: 14px;
+  width: 60%;
+  
+}
+
+.picture{
+  width: 60%;
+ 
+}
+
+
+
+.footer{
+  background-color: #3a3a56;
+  height: 10vh;
+}
